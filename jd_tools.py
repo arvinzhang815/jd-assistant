@@ -6,8 +6,8 @@ import json
 from base64 import b64encode
 
 import requests
-from Crypto.PublicKey import RSA
-from Crypto.Cipher import PKCS1_v1_5 as Cipher_pkcs1_v1_5
+from crypto.PublicKey import RSA
+from crypto.Cipher import PKCS1_v1_5 as Cipher_pkcs1_v1_5
 
 RSA_PUBLIC_KEY = """-----BEGIN PUBLIC KEY-----
 MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDC7kw8r6tq43pwApYvkJ5lalja
